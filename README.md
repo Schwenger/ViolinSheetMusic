@@ -4,6 +4,9 @@ This repository contains some sheet music for violin, engraved with [LilyPond](h
 If you don't know LilyPond, check it out, it's by far the best sheet music engraver/typesetter I'm aware of.
 Especially if you're familiary with LaTeX, you'll feel right at home.
 
+# Engraving
+After installing [LilyPond](http://lilypond.org/) just run `lilypond <filename>.ly` and wait for it to complete. Piece of cake.
+
 # Disclaimer
 I did not compose any of the music and I do not hold any rights for the pieces. Whenever possible, the author name will be attached to the sheet music.
 
