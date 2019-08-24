@@ -2,13 +2,11 @@
 \header{
   title = "Concertino G-Dur für Violine und Klavier"
   composer = "Anotoli Komorowski"
+  instrument = "Violin"
+  tagline = "" 
 }
 
-\layout {
-  indent = 0\cm
-}
-
-\relative g'' {
+violin = \transpose c a \relative g'' {
   \time 4/4
   \key g \major
   \tempo "Allegro"
@@ -210,6 +208,8 @@
   
   
 }
+
+\transpose a c \violin
 
 
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.

@@ -1,11 +1,9 @@
 
 \header{
-  title = "Konzert G-Dur Op. 7 Nr. 2"
+  title = "Konzert G-Dur"
   composer = "Antonio Vivaldi"
-}
-
-\layout {
-  indent = 0\cm
+  instrument = "Violin" 
+  tagline = "" 
 }
 
 \language "deutsch"
@@ -14,7 +12,7 @@ mBreak = { \break }
 cresc = \markup{\italic cresc.}
 simile = \markup{\italic simile}
 
-\relative g'' {
+violin = \transpose c a \relative g'' {
   \time 2/4
   \key g \major
   \tempo "Allegro"
@@ -237,13 +235,15 @@ simile = \markup{\italic simile}
   g16 g' fis e d c h a |
   g16 g' fis e d c h a |
   g2
-
-  % <a c>2 % Use for Doppelgriffe
-  % (c d e) % Parentheses for ties (not slures, which is an elongated note over several bars)
-  % c2-3\ff cis2.-4_"Fr" % For fingerings
-  
   
 }
 
+\score {
+  { \transpose a c \violin }
+  \header {
+    piece = "Nr. 2"
+    opus = "Opus 7"
+  }
+}
 
 \version "2.18.2"  % necessary for upgrading to future LilyPond versions.
