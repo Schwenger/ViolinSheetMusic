@@ -37,7 +37,7 @@ violin = \transpose c a \relative g'' {
 
   \mBreak
 
-  c8^\simile c c e-0
+  e8^\simile c c e-0
   a8 e a e
   fis8 d d fis
   h8 fis h fis
